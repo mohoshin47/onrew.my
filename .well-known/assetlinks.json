@@ -1,0 +1,16 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.onerewards",
+      "sha256_cert_fingerprints": [
+        "B6:BB:B0:74:6E:94:E4:A3:B8:E6:6E:A2:B6:89:2B:84:A2:8F:3D:46:07:06:82:CE:2D:CA:5B:85:46:E2:B4:CF",
+        "04:0E:BA:0D:AA:58:C5:DC:8E:35:12:5B:8C:2D:C1:44:7D:19:93:41:0E:2F:5A:B3:7D:DA:50:47:40:21:5D:70",
+        "57:ED:1C:1E:3D:36:D2:71:BE:E4:E5:06:44:8F:50:DA:DC:68:F0:46:FE:0A:12:63:E3:BD:89:78:2C:BD:B1:D6"
+      ]
+    }
+  }
+]
