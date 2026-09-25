@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OneReward</title>
-
+    <title>OneRewards</title>
     <script>
-        window.location.replace(
-            "https://play.google.com/store/apps/details?id=com.onerewards"
-        );
+        // SPA Routing Fallback for static hosting
+        var l = window.location;
+        if (l.pathname !== '/') {
+            window.location.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/#' + l.pathname);
+        } else {
+            window.location.replace('/');
+        }
     </script>
 </head>
 <body>
-<p>Opening OneReward...</p>
+<p>Loading OneRewards...</p>
 </body>
 </html>
