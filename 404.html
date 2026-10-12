@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OneRewards</title>
     <script>
-        // SPA Routing Fallback for static hosting
+        // Single Page App routing fallback for static hosting without hash (#)
         var l = window.location;
-        if (l.pathname !== '/') {
-            window.location.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/#' + l.pathname);
-        } else {
-            window.location.replace('/');
-        }
+        var pathSegmentsToKeep = 0; // 0 for custom domain (onrew.my)
+
+        var redirectUrl = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?p=/' +
+            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/') +
+            (l.search ? '&q=' + l.search.slice(1) : '') +
+            l.hash;
+
+        l.replace(redirectUrl);
     </script>
 </head>
 <body>

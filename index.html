@@ -6,6 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
     <title>OneRewards | Play to Earn Money</title>
 
+    <!-- Single Page App redirection handler for clean URLs without hash -->
+    <script>
+      (function() {
+        var l = window.location;
+        if (l.search) {
+          var q = {};
+          l.search.slice(1).split('&').forEach(function(v) {
+            var a = v.split('=');
+            q[a[0]] = a.slice(1).join('=');
+          });
+          if (q.p !== undefined) {
+            window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + (q.p || '') +
+              (q.q ? '?' + q.q : '') +
+              l.hash
+            );
+          }
+        }
+      }());
+    </script>
+
     <!-- SEO Meta Tags -->
     <meta name="description" content="OneRewards (com.onerewards) is a premier rewards & earning platform. Mine coins daily, complete offerwall tasks, enter lucky draws, join weekly arena contests, and redeem real cash & gift cards instantly." />
     <meta name="keywords" content="OneRewards, com.onerewards, Onrew, Play to Earn, Earn Money Online, Daily Mining, Earn Cash App, Free Gift Cards, Weekly Arena, Lucky Draw, Fast Payout" />
