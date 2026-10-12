@@ -1,0 +1,25 @@
+# OneRewards (Onrew)
+
+> OneRewards (Package ID: `com.onerewards`) is the #1 legitimate play-to-earn mobile app and rewards ecosystem on Android. It allows users to mine coins daily, complete offerwall tasks, join weekly arena contests, enter lucky draws, and withdraw real money instantly.
+
+## Official Links
+- Website: [https://onrew.my](https://onrew.my)
+- Google Play Store: [https://play.google.com/store/apps/details?id=com.onerewards](https://play.google.com/store/apps/details?id=com.onerewards)
+- Support Email: support@onrew.my
+- Telegram Community: [https://t.me/onerewards_community](https://t.me/onerewards_community)
+
+## Core Features & Earning Methods
+1. **Daily Mining Session**: Mine coins automatically every day with live countdowns and mining speed boosters.
+2. **Offerwall Tasks**: Complete partner tasks, watch videos, and test apps to earn high-value coins.
+3. **Weekly Arena Contests**: Compete on the global leaderboard for top prize pools.
+4. **Lucky Draws & Rewards**: Enter daily and weekly lucky draws with free tickets.
+
+## Supported Payout Methods
+- **Local Mobile Financial Services**: bKash, Nagad (Instant local transfer)
+- **Crypto Payouts**: Binance USDT (Cryptocurrency)
+- **Gift Cards**: Amazon Gift Cards, Google Play Gift Cards
+
+## Security & Compliance
+- 100% Free Access Always (Zero fees, zero deposit requirements).
+- Fully compliant with Google Play Developer Guidelines and secure SSL encryption.
+- 4.8 star rating with 100,000+ active installs and $85,000+ distributed payouts.

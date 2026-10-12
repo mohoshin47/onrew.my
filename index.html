@@ -35,45 +35,70 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://onrew.app/" />
+    <meta property="og:url" content="https://onrew.my/" />
     <meta property="og:title" content="OneRewards | Play to Earn Money & Real Cash" />
     <meta property="og:description" content="Mine coins daily, complete fun tasks, compete in weekly arena contests, and withdraw real money instantly with OneRewards." />
-    <meta property="og:image" content="/logo.png" />
+    <meta property="og:image" content="https://onrew.my/logo.png" />
     <meta property="og:site_name" content="OneRewards" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="OneRewards | Play to Earn Money" />
     <meta name="twitter:description" content="Join 100,000+ users earning real cash & gift cards daily with OneRewards." />
-    <meta name="twitter:image" content="/logo.png" />
+    <meta name="twitter:image" content="https://onrew.my/logo.png" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Structured Data (JSON-LD) for SEO -->
+    <!-- Structured Data (JSON-LD) for SEO & AI Recommendation Engines -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "OneRewards",
-      "alternateName": "Onrew",
-      "operatingSystem": "Android",
-      "applicationCategory": "GameApplication, FinanceApplication",
-      "installUrl": "https://play.google.com/store/apps/details?id=com.onerewards",
-      "downloadUrl": "https://play.google.com/store/apps/details?id=com.onerewards",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "ratingCount": "12500"
-      },
-      "description": "Play games, complete daily tasks, mine coins, join weekly arena contests and redeem real money with OneRewards (com.onerewards)."
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://onrew.my/#website",
+          "url": "https://onrew.my/",
+          "name": "OneRewards",
+          "alternateName": "Onrew",
+          "description": "Play games, mine coins daily, complete offerwall tasks, and redeem real cash instantly.",
+          "publisher": {
+            "@type": "Organization",
+            "name": "OneRewards Team",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://onrew.my/logo.png"
+            }
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "OneRewards",
+          "alternateName": "Onrew",
+          "operatingSystem": "Android",
+          "applicationCategory": "GameApplication, FinanceApplication",
+          "applicationSubCategory": "Rewards & Earning Platform",
+          "softwareVersion": "1.0.4",
+          "installUrl": "https://play.google.com/store/apps/details?id=com.onerewards",
+          "downloadUrl": "https://play.google.com/store/apps/details?id=com.onerewards",
+          "releaseNotes": "Enhanced mining speeds, instant bKash/Nagad and Crypto payouts.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "12500",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "description": "OneRewards (com.onerewards) is a premier rewards & earning platform. Mine coins daily, complete offerwall tasks, enter lucky draws, join weekly arena contests, and redeem real cash & gift cards instantly."
+        }
+      ]
     }
     </script>
     <script type="module" crossorigin src="/assets/index-jn_UOIbA.js"></script>

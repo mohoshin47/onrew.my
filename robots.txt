@@ -1,4 +1,17 @@
 User-agent: *
 Allow: /
 
+# Explicitly allow AI search crawlers and assistants
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://onrew.my/sitemap.xml
